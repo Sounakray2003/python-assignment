@@ -1,0 +1,5 @@
+a = float(input("Enter time in hours: "))
+b = float(input("Enter time in minitues: "))
+c = float(input("Enter time in seconds: "))
+time = (a*60)+b+(c/60)
+print("Time in minitues is ", time, "minitues")
